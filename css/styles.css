@@ -1,0 +1,45 @@
+.titulo{
+color:rgb(21, 21, 26);
+font-size:4vw;
+text-align:center;
+}
+
+.borda{
+	border:2px solid rgb(25, 23, 23);
+}
+
+@media only screen and (min-width: 992px) {
+/* Para desktop: */
+	.txt{
+		font-size:1.4vw;
+	}
+	
+	.img2 , .img1{
+		max-width:100%;
+		width:100%;
+		height:240px;
+	}
+	
+	
+}
+
+
+@media only screen and (max-width: 576px) {
+/* Para desktop: */
+	.txt{
+		font-size:1.4vw;
+	}
+	
+	.img2 , .img1{
+		max-width:100%;
+		width:100%;
+		height:240px;
+	}
+	
+	.txt{
+		font-size:4.4vw;
+		color:red;
+		text-align:justify;
+	}
+	
+}
